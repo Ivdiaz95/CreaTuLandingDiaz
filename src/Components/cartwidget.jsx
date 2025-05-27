@@ -2,8 +2,7 @@ const CartWidget = () => {
   return (
     <div style={styles.cart}>
       🛒
-      <span style={styles.counter}>1000</span>{" "}
-      {/* Este número puede venir luego de un estado */}
+      <span style={styles.counter}>1000</span>
     </div>
   );
 };
